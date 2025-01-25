@@ -15,6 +15,8 @@ body {
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
+    display: flex;
+    align-items: center;
 }
 
 .hp-row {
@@ -97,7 +99,7 @@ body {
 }
 
 .news ul li a {
-    font-size: 12px;
+    font-size: 16px;
     text-decoration: none;
     color: #2ea3f2;
     font-weight: 500;
@@ -122,6 +124,73 @@ body {
 .news ul li:last-child::after {
     content: '';
 }
+.footer {
+    background-color: #066c51!important;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.logo-column {
+    text-align: center;
+}
+
+.logo-img {
+    max-height: 80px;
+    object-fit: contain;
+}
+
+.logo-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.footer-heading {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+
+.useful-links, .important-links {
+    margin-bottom: 30px;
+}
+
+.useful-links a, .important-links a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.useful-links a:hover, .important-links a:hover {
+    color: #f39c12;
+}
+
+.contact-us h5 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.contact-us p {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.contact-us a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.contact-us a:hover {
+    color: #f39c12;
+}
+
+.map p {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
 @media (max-width: 600px) {
     .news-content,.latest-news-section  {
         width: 100%;
